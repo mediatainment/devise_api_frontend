@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
   s.version     = DeviseApiFrontend::VERSION
   s.authors     = ["Jan Jezek"]
   s.email       = ["mail@mediatainment-productions.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DeviseApiFrontend."
-  s.description = "TODO: Description of DeviseApiFrontend."
+  s.homepage    = "https://github.com/mediatainment/devise_api_frontend"
+  s.summary     = "Gem adds views and devise to your API app. So users can register on your website."
+  s.description = "Still beta, no description"
   s.license     = "MIT"
 
-  s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib,spec}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
 
   s.add_dependency "rails", "~> 4.2.6"
 
